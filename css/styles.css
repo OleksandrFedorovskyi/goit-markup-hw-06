@@ -779,6 +779,12 @@ ul {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.field-input:not(:focus),
+.textarea:not(:focus),
+.subscr-field:not(:focus) {
+  cursor: pointer;
+}
+
 .field-input:hover,
 .field-input:focus {
   border-color: var(--accent-text-color);
@@ -824,6 +830,7 @@ ul {
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .check-mark-bg {
@@ -886,6 +893,7 @@ ul {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .subscr-button {
@@ -907,6 +915,7 @@ ul {
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .send-icon {
