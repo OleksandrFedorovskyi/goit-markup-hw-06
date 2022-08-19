@@ -96,7 +96,8 @@ ul {
   display: flex;
   padding-left: 0;
   align-items: stretch;
-  height: 100%;
+  max-width: 100%;
+  height: 80px;
 }
 
 .header-links :hover,
@@ -716,6 +717,7 @@ ul {
   transform: translate(-50%, -50%);
   width: 528px;
   background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .modal-body {
