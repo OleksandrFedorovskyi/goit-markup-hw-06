@@ -496,6 +496,7 @@ ul {
 .footer-contacts {
   padding-left: 0;
   margin-right: 15px;
+  width: 215px;
 }
 
 .footer-contacts > li:not(:last-of-type) {
@@ -517,6 +518,8 @@ ul {
 .footer-container {
   display: flex;
   align-items: baseline;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .footer-main-section {
