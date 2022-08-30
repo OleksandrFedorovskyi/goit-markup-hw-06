@@ -840,6 +840,9 @@ ul {
   transform: translateY(-50%);
   cursor: pointer;
 }
+.checkbox:focus + .check-mark-bg {
+  border: 1px solid var(--accent-text-color);
+}
 
 .check-mark-bg {
   border: 1px solid var(--title-text-color);
@@ -868,8 +871,9 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  visibility: hidden;
+  opacity: 0;
   transform: translateY(-50%);
+  pointer-events: all;
 }
 
 .checkbox:checked + .check-mark-bg + .check-mark {
